@@ -1,0 +1,19 @@
+.captionLight {
+  color: #212529;
+  padding:  1rem 3rem 0 3rem;
+  background-image: linear-gradient(
+    to bottom, 
+    rgba(244, 247, 249, 0.9),
+    rgba(244, 247, 249, 0)
+    );  
+}
+
+.captionDark {
+  padding:  1rem 3rem 0 3rem;
+  background-image: linear-gradient(
+    to bottom,   
+    rgba(43, 44, 56, 0.9),
+    rgba(43, 44, 56, 0)
+    );  
+}
+

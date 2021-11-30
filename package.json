@@ -1,0 +1,38 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.32",
+    "@fortawesome/free-solid-svg-icons": "5.15.1",
+    "@fortawesome/react-fontawesome": "0.1.12",
+    "@sanity/block-content-to-react": "2.0.7",
+    "@sanity/client": "2.0.9",
+    "@sanity/image-url": "0.140.19",
+    "bootstrap": "4.5.3",
+    "formik": "2.2.5",
+    "get-youtube-id": "1.0.1",
+    "google-map-react": "2.1.9",
+    "moment": "2.29.1",
+    "next": "latest",
+    "react": "16.13.1",
+    "react-bootstrap": "1.4.0",
+    "react-dom": "16.13.1",
+    "react-instagram-embed": "2.0.0",
+    "react-spring": "8.0.27",
+    "react-youtube": "7.13.0",
+    "sass": "1.28.0",
+    "swr": "0.3.8",
+    "yup": "0.31.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works."
+}

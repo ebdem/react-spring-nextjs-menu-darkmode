@@ -1,0 +1,14 @@
+.marker {
+  color: #2b2c38;
+  text-shadow: 1px 1px 2px #2b2c38 ;
+  display: inline-flex;
+
+
+  &:hover {
+    color: grey;
+    text-shadow: 1px 1px 2px #2b2c38 ;
+    cursor: pointer;
+
+  }
+}
+

@@ -1,0 +1,67 @@
+.wrapper, .wrapperToggled{
+  overflow-x: hidden;
+}
+
+.sidebarWrapper {
+  max-width: 15rem;
+min-height: 100vh;
+margin-left: -15rem;
+-webkit-transition: margin .25s ease-out;
+-moz-transition: margin .25s ease-out;
+-o-transition: margin .25s ease-out;
+transition: margin .25s ease-out;
+
+
+}
+
+.pageContentWrapper {
+min-width: 100vw;
+}
+
+.childrenWrapper {
+  min-height: 100vh;
+}
+
+.wrapperToggled .sidebarWrapper {
+margin-left: -1rem;
+}
+
+@media (min-width: 768px) {
+  .sidebarWrapper {
+    margin-left: 0;   
+    max-width: 16rem;    
+  }
+
+  .pageContentWrapper {
+    min-width: 0;
+    width: 100vw;
+  }
+
+  .wrapperToggled .sidebarWrapper {
+    margin-left: -16rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .sidebarWrapper {
+    margin-left: 0; 
+    max-width: 18rem;          
+  }
+
+  .wrapperToggled .sidebarWrapper {
+    margin-left: -18rem;
+  }
+}
+
+@media (min-width: 1920px) {
+
+  .sidebarWrapper {
+    margin-left: 0;   
+    max-width: 25rem;     
+  }
+
+  .wrapperToggled .sidebarWrapper {
+    margin-left: -25rem;
+  }
+}
